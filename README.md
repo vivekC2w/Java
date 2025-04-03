@@ -29,3 +29,13 @@ DAEMON THREAD -
 Deamon means something which runs in async manner. 
 Deamon thread will alive until user threads are alive.
 Auto Save and garbage collector are examples of deamon thread/process.
+
+
+ReadWriteLock:
+
+Readlock - More than 1 thread can acquire the read lock.   (Shared Lock)
+WriteLock - Only 1 thread can acquire the write lock.    (Exclusive Lock)
+
+
+
+ 
